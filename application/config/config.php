@@ -532,3 +532,12 @@ $config['proxy_ips'] = '';
 $config['title'] = 'DigitalPen PH';
 $config['copyright'] = 'Copyright &copy; DigitalPen PH 2017';
 $config['layout'] = 'layouts/layout';
+$config['SMTP_Settings'] = array(
+  'Email' => '',
+  'Password' => '',
+  'Server' => 'smtp.gmail.com',
+  'Port' => '465',
+  'Security' => 'tls',
+  'Auth' => true,
+  'Debug' => false
+);

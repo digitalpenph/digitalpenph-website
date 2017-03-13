@@ -16,7 +16,7 @@ class DigitalPenPhController extends CI_Controller {
         $navigation = array(
             array("Name" => "About", "Location" => "#about"),
             array("Name" => "Team", "Location" => "#team"),
-            array("Name" => "Portfolio", "Location" => "#portfolio"),
+//            array("Name" => "Portfolio", "Location" => "#portfolio"),
             array("Name" => "Contact", "Location" => "#contact")
         );
         $team = array(

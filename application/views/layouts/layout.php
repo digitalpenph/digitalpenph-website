@@ -19,6 +19,9 @@
         <link href="<?php echo base_url("assets/vendor/font-awesome/css/font-awesome.min.css"); ?>" rel="stylesheet" type="text/css">
         <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
         <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+        
+        <!-- DigitalPenPH CSS -->
+        <link href="<?php echo base_url("assets/css/digitalpenph.css"); ?>" rel="stylesheet" type="text/css">
 
         <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -29,20 +32,6 @@
         <script>
             var conturl = <?php echo json_encode(base_url('DigitalPenPhController/contactus')); ?>;
         </script>
-        <style>
-            /* centered columns styles */
-            .row-centered {
-                text-align:center;
-            }
-            .col-centered {
-                display:inline-block;
-                float:none;
-                /* reset the text-align */
-                text-align:left;
-                /* inline-block space fix */
-                margin-right:-4px;
-            }
-        </style>
     </head>
 
     <body id="page-top" class="index">

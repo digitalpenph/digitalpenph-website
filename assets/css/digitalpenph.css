@@ -1,0 +1,27 @@
+/*
+* The team's costumized CSS.
+* Date: 03/13/2017
+*/
+
+/* centered columns styles */
+.row-centered {
+    text-align:center;
+}
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:left;
+    /* inline-block space fix */
+    margin-right:-4px;
+}
+/* image team filter */
+.img-team {
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+    -webkit-transition: .5s all;
+}
+.img-team:hover {
+    filter: none;
+    -webkit-filter: grayscale(0%);
+}

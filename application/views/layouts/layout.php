@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-
     <head>
-
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -28,9 +26,23 @@
             <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
             <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
         <![endif]-->
-    <script>
-      var conturl = <?php  echo json_encode(base_url('DigitalPenPhController/contactus')); ?>;
-    </script>
+        <script>
+            var conturl = <?php echo json_encode(base_url('DigitalPenPhController/contactus')); ?>;
+        </script>
+        <style>
+            /* centered columns styles */
+            .row-centered {
+                text-align:center;
+            }
+            .col-centered {
+                display:inline-block;
+                float:none;
+                /* reset the text-align */
+                text-align:left;
+                /* inline-block space fix */
+                margin-right:-4px;
+            }
+        </style>
     </head>
 
     <body id="page-top" class="index">
@@ -53,15 +65,11 @@
                         <li class="hidden">
                             <a href="#page-top"></a>
                         </li>
-                        <li class="page-scroll">
-                            <a href="#portfolio">Portfolio</a>
-                        </li>
-                        <li class="page-scroll">
-                            <a href="#about">About</a>
-                        </li>
-                        <li class="page-scroll">
-                            <a href="#contact">Contact</a>
-                        </li>
+                        <?php foreach ($navigation as $value) { ?>
+                            <li class="page-scroll">
+                                <a href="<?php echo $value["Location"] ?>"><?php echo $value['Name'] ?></a>
+                            </li>
+                        <?php } ?>
                     </ul>
                 </div>
                 <!-- /.navbar-collapse -->

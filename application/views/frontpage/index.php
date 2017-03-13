@@ -1,8 +1,11 @@
-<!-- Portfolio Grid Section -->
-<?php include 'templates/portfolio.php' ?>
-
 <!-- About Section -->
 <?php include 'templates/about.php' ?>
+
+<!-- Team Grid Section -->
+<?php include 'templates/team.php' ?>
+
+<!-- Portfolio Grid Section -->
+<?php include 'templates/portfolio.php' ?>
 
 <!-- Contact Section -->
 <?php include 'templates/contact.php' ?>

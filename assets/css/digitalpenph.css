@@ -3,6 +3,9 @@
 * Date: 03/13/2017
 */
 
+body {
+    font-style: oblique;
+}
 /* centered columns styles */
 .row-centered {
     text-align:center;
@@ -17,6 +20,7 @@
 }
 /* image team filter */
 .img-team {
+    height: 20%;
     -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
     filter: grayscale(100%);
     -webkit-transition: .5s all;

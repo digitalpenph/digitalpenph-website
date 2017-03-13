@@ -3,7 +3,6 @@
         <div class="row">
             <div class="col-lg-12 text-center">
                 <h2><?php echo $navigation[1]["Name"] ?></h2>
-                <hr class="star-light">
             </div>
         </div>
         <div class="row row-centered">

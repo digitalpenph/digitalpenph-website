@@ -5,7 +5,7 @@
 <?php include 'templates/team.php' ?>
 
 <!-- Portfolio Grid Section -->
-<?php include 'templates/portfolio.php' ?>
+<?php // include 'templates/portfolio.php' ?>
 
 <!-- Contact Section -->
 <?php include 'templates/contact.php' ?>

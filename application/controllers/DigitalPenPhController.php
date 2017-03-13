@@ -21,12 +21,12 @@ class DigitalPenPhController extends CI_Controller {
         );
         $team = array(
             array("Image" => "assets/img/team/rolly.jpg", "Name" => "MARK KEVIN AGANUS", "Position" => "DESIGNER"),
-            array("Image" => "assets/img/team/tristan.jpg", "Name" => "TRISTAN JAKE A. ALCANTARA", "Position" => "PROGRAMMER"),
-            array("Image" => "assets/img/team/rolly.jpg", "Name" => "VON JOEFREY DAGUIO", "Position" => "PROGRAMMER"),
+            array("Image" => "assets/img/team/tristan.jpg", "Name" => "TRISTAN JAKE ALCANTARA", "Position" => "PROGRAMMER"),
+            array("Image" => "assets/img/team/rolly.jpg", "Name" => "VON JOEFREY ORPIA", "Position" => "PROGRAMMER"),
             array("Image" => "assets/img/team/rolly.jpg", "Name" => "DALE JUSTINE RABENA", "Position" => "PROGRAMMER"),
-            array("Image" => "assets/img/team/rolly.jpg", "Name" => "JOHN MARC S. ROCO", "Position" => "PROGRAMMER"),
-            array("Image" => "assets/img/team/rolly.jpg", "Name" => "ACE D. TUMANENG", "Position" => "PROGRAMMER"),
-            array("Image" => "assets/img/team/rolly.jpg", "Name" => "ZOFRENTE G. VALENZUELA", "Position" => "DESIGNER"),
+            array("Image" => "assets/img/team/rolly.jpg", "Name" => "JOHN MARK ROCO", "Position" => "PROGRAMMER"),
+            array("Image" => "assets/img/team/rolly.jpg", "Name" => "ACE TUMANENG", "Position" => "PROGRAMMER"),
+            array("Image" => "assets/img/team/rolly.jpg", "Name" => "ZOFRENTE VALENZUELA", "Position" => "DESIGNER"),
             array("Image" => "assets/img/team/rolly.jpg", "Name" => "ARON VIDA", "Position" => "PROGRAMMER")
         );
         $data = array(

@@ -9,7 +9,7 @@
         <div class="row row-centered">
             <?php foreach ($team as $value) { ?>
                 <div class="col-sm-2 team-item col-centered">
-                    <img src="<?php echo base_url($value["Image"]); ?>" class="img-responsive img-circle" alt="Tristan">
+                    <img src="<?php echo base_url($value["Image"]); ?>" class="img-responsive img-circle">
                     <div class="caption">
                         <div class="caption-content text-center">
                             <b><?php echo $value["Name"] ?></b>

@@ -22,6 +22,7 @@
 
         <!-- DigitalPenPH CSS -->
         <link href="<?php echo base_url("assets/css/digitalpenph.css"); ?>" rel="stylesheet" type="text/css">
+        <link href="<?php echo base_url("assets/css/modal.css"); ?>" rel="stylesheet" type="text/css">
 
         <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->

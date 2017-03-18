@@ -530,7 +530,7 @@ $config['proxy_ips'] = '';
  * Date: 03/08/2017
  */
 $config['title'] = 'DigitalPen PH';
-$config['copyright'] = 'Copyright &copy; DigitalPen PH 2017';
+$config['copyright'] = 'Copyrights &copy; DigitalPen PH 2017';
 $config['layout'] = 'layouts/layout';
 $config['SMTP_Settings'] = array(
   'Email' => '',

@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
-                <h2><?php echo $navigation[2]["Name"] ?></h2>
+                <h2><?php echo $navigation[3]["Name"] ?></h2>
             </div>
         </div>
         <div class="row">

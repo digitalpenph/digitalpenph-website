@@ -2,18 +2,19 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
-                <h2><?php echo $navigation[1]["Name"] ?></h2>
+                <h2>The Team</h2>
             </div>
         </div>
+        <hr class="success" />
         <div class="row row-centered">
             <?php foreach ($team as $value) { ?>
                 <div class="col-sm-4 team-item col-centered">
                     <img src="<?php echo base_url($value["Image"]); ?>" class="img-responsive img-circle img-team" onclick="image('<?php echo $value['Name']; ?>', '<?php echo $value['Description']; ?>')">
                     <div class="caption">
                         <div class="caption-content text-center">
-                            <b><?php echo $value["Name"] ?></b>
+                            <p><b><?php echo $value["Name"] ?></b>
                             <br />
-                            <?php echo $value["Position"] ?>
+                            <?php echo $value["Position"] ?></p>
                         </div>
                     </div>
                 </div>

@@ -13,16 +13,18 @@ class DigitalPenPhController extends CI_Controller {
 
     public function index() {
         $navigation = array(
+            array("Name" => "Services", "Location" => "#services"),
             array("Name" => "About", "Location" => "#about"),
             array("Name" => "Team", "Location" => "#team"),
-//            array("Name" => "Portfolio", "Location" => "#portfolio"),
-            array("Name" => "Contact Us", "Location" => "#contact")
+            array("Name" => "Contact", "Location" => "#contact")
         );
+        $services = array(
+            array("Image" => "assets/img/services/web.png", "Name" => "Web App", "Description" => "We provide and develop web applications of an individual."),
+            array("Image" => "assets/img/services/mobile.png", "Name" => "Mobile App", "Description" => "We provide and develop mobile applications of an individual."),
+            array("Image" => "assets/img/services/app.png", "Name" => "Software App", "Description" => "We provide and develop software application of an individual.")
+        );
+        $about = "We at DigitalPen PH have a very clear mission in mind and that is to provide IT services to the people in need. It is about simplifying the work, increase sales, perform effective and efficient task, and creativity by using new technologies.";
         $team = array(
-            array("Image" => "assets/img/team/kevin.jpg",
-                "Name" => "MARC KEVIN AGANUS",
-                "Position" => "DESIGNER",
-                "Description" => "Okama"),
             array("Image" => "assets/img/team/tristan.jpg",
                 "Name" => "TRISTAN JAKE ALCANTARA",
                 "Position" => "PROGRAMMER",
@@ -31,23 +33,11 @@ class DigitalPenPhController extends CI_Controller {
                 "Name" => "VON JOEFREY ORPIA",
                 "Position" => "PROGRAMMER",
                 "Description" => "Von Joefrey Orpia undergraduate of a degree Bachelor of Science in Computer Science. Self-learning in the field of web penetration and testing. Basic knowledge in HTML, CSS, JavaScript, PHP, and other programming tools."),
-            array("Image" => "assets/img/team/dale.jpg",
-                "Name" => "DALE JUSTINE RABENA",
-                "Position" => "PROGRAMMER",
-                "Description" => "Okama"),
             array("Image" => "assets/img/team/rolly.jpg",
                 "Name" => "JOHN MARK ROCO",
                 "Position" => "PROGRAMMER",
                 "Description" => "John Mark graduated at Polytechnic University of the Philippines, Quezon City Branch with the course of Bachelor of Science in Information Technology. He, have expertise in web development, and primary uses PHP, CSS, Javascript (JQuery) and HTML for Web Development. He is also familiar to other web development frameworks and tools such as Bootstrap, Java Server Page (Servlet w/ JSTL), Codeigniter and Wordpress."),
-            array("Image" => "assets/img/team/ace.jpg",
-                "Name" => "ACE TUMANENG",
-                "Position" => "PROGRAMMER",
-                "Description" => "Okama"),
-            array("Image" => "assets/img/team/zoft.jpg",
-                "Name" => "ZOFRENTE VALENZUELA",
-                "Position" => "DESIGNER",
-                "Description" => "Okama"),
-            array("Image" => "assets/img/team/aron.jpg",
+            array("Image" => "assets/img/team/aaron.jpg",
                 "Name" => "JOHN AARON VIDA",
                 "Position" => "PROGRAMMER",
                 "Description" => "An energetic and imaginative young web developer who is able to work alongside other talented IT professionals in creating websites to the very highest standards. An ambitious type who wants to get noticed, and has the drive and massive energy needed to really make a difference to a project.")
@@ -55,7 +45,9 @@ class DigitalPenPhController extends CI_Controller {
 
         $data = array(
             'content' => 'frontpage/index',
+            'services' => $services,
             'navigation' => $navigation,
+            'about' => $about,
             'team' => $team
         );
         $this->load->view($this->layout, $data);
